@@ -1,4 +1,5 @@
 <?php
+
 require("includes/common.php");
 if (!isset($_SESSION['email'])) {
     header('location: index1.php');
@@ -7,35 +8,13 @@ if (!isset($_SESSION['email'])) {
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<style>
-			iframe
-			{
-				width:100%;
-				height: 700px;
-			}
-		</style>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>RAECS Official Website</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="freehtml5.co" />
-
-	<!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
-
-  	<!-- Facebook and Twitter integration -->
+	<meta name="description" content="raecs official website" />
+	<meta name="keywords" content="races,raecs.org,raecs website,raeces official,login,raeces login,free login,education society,learn,knowledge," />
+	
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -99,15 +78,15 @@ if (!isset($_SESSION['email'])) {
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/qn.jfif);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/retina.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Contact Us</h1>
-							<h2>Any Problem , we are just a pm away .<a href="signup.php" target="_blank"> Take a course</a></h2>
+							<h1>All Courses</h1>
+							<h2>RAECES has sorted their courses here.<a href="courses.html" target="_blank"> See all the courses</a></h2>
 						</div>
 					</div>
 				</div>
@@ -115,68 +94,79 @@ if (!isset($_SESSION['email'])) {
 		</div>
 	</header>
 
-	<div id="fh5co-contact">
+		<div id="fh5co-project">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="text-center fh5co-heading col-md-offset-0 col-md-12">
+					<h2>Our Courses </h2>
+					<p>Here is a list of courses RAECES that will help you to choose where to enlarge your domain of knowledeg , We have a variety of courses in our site , formed by experienced teachers and faculties from universities.Register yourself after choosing your favourite subject.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid proj-bottom">
+			<div class="row">
+				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+					<a href="raeces_java.html"><img src="images/java.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+						<h3>JAVA</h3>
+						<span>View Course</span>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+					<a href="raeces_c.html"><img src="images/c.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+						<h3>C Language</h3>
+						<span>View Course</span>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+					<a href="raeces_javascript.html"><img src="images/js.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+						<h3>JAVA Script</h3>
+						<span>View Course</span>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+					<a href="#"><img src="images/html1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+						<h3>HTML</h3>
+						<span>View Course</span>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+					<a href="raeces_css.html"><img src="images/css3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+						<h3>CSS</h3>
+						<span>View Course</span>
+					</a>
+				</div>
+				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
+					<a href="raeces_python.html"><img src="images/python1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+						<h3>Python</h3>
+						<span>View Course</span>
+					</a>
+				</div>
+			</div>
+		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5 col-md-push-1 animate-box">
-					
-					<div class="fh5co-contact-info">
-						<h3>Contact Information</h3>
-						<ul>
-							<li class="address">Armapur Estate, Kanpur, <br> Uttar Pradesh,208009 India</li>
-							<li class="phone"><a href="tel://6393947770">+91 6393947770</a></li>
-							<li class="email"><a href="mailto:renu.raeces@gmail.com">renu.raeces@gmail.com</a></li>
-							<li class="url"><a href="#">www.raeces.org</a></li>
-						</ul>
+				<div class="features">
+					<div class="col-md-4 animate-box">
+						<h4>We have coolest features of this course</h4>
+						<p>raeces give good and quality features
+						</p>
 					</div>
-
+					<div class="col-md-4 animate-box">
+						<h4>Great teachers that we have</h4>
+						<p>raeces team are good.  </p>
+					</div>
+					<div class="col-md-4 animate-box">
+						<h4>Steps by steps turorial session</h4>
+						<p>Join our courses  </p>
+					</div>
 				</div>
-				<div class="col-md-6 animate-box">
-					<h3>Get In Touch</h3>
-					<form action="#">
-						<div class="row form-group">
-							<div class="col-md-6">
-								<!-- <label for="fname">First Name</label> -->
-								<input type="text" id="fname" class="form-control" placeholder="Your firstname">
-							</div>
-							<div class="col-md-6">
-								<!-- <label for="lname">Last Name</label> -->
-								<input type="text" id="lname" class="form-control" placeholder="Your lastname">
-							</div>
-						</div>
-
-						<div class="row form-group">
-							<div class="col-md-12">
-								<!-- <label for="email">Email</label> -->
-								<input type="text" id="email" class="form-control" placeholder="Your email address">
-							</div>
-						</div>
-
-						<div class="row form-group">
-							<div class="col-md-12">
-								<!-- <label for="subject">Subject</label> -->
-								<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
-							</div>
-						</div>
-
-						<div class="row form-group">
-							<div class="col-md-12">
-								<!-- <label for="message">Message</label> -->
-								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
-							</div>
-						</div>
-						<div class="form-group">
-							<input type="submit" value="Send Message" class="btn btn-primary">
-						</div>
-
-					</form>		
+				<div class="col-md-12 text-center animate-box">
+					<p><a class="btn btn-primary btn-lg btn-learn" href="#">Start A Free Course</a></p>
 				</div>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14285.975980384294!2d80.2646451!3d26.4720349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x468ff91f55687258!2sRenu%20Animation%20expert%20computer%20educational%20society!5e0!3m2!1sen!2sin!4v1571995890454!5m2!1sen!2sin"></iframe>
 			</div>
-			
 		</div>
 	</div>
-	
+
 		<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
 			<div class="row row-pb-md">
@@ -233,7 +223,7 @@ if (!isset($_SESSION['email'])) {
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2019 RAECES. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
+						<small class="block">Follow Us</a></small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">

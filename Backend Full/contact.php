@@ -13,33 +13,29 @@ if (!isset($_SESSION['email'])) {
 				width:100%;
 				height: 700px;
 			}
-			h2
-			{
-				text-align: center;
-				margin-left: 50%;
-			}
-			.align
-			{
-				  
-				 text-align-last: right;
-			}
-			.img
-			{
-				text-align: center;
-				
-				height:20%; 
-			}
-
 		</style>
-		<title>About Us</title>
-
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>About RAECES</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="freehtml5.co" />
+
+	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -49,6 +45,7 @@ if (!isset($_SESSION['email'])) {
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
+
     <link rel="shortcut icon" href="images/favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
 	<link rel="stylesheet" href="css/animate.css">
@@ -102,16 +99,15 @@ if (!isset($_SESSION['email'])) {
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/about.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/qn.jfif);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Interested About RAECES</h1>
-							<h2>Look at the sky. We are not alone. The whole universe is friendly to us and conspires only to give the best to those who dream and work.</a></h2>
-							<p><a class="btn btn-primary btn-lg btn-learn" href="#">Take A Course</a> <a class="btn btn-primary btn-lg popup-vimeo btn-video" href="#"><i class="icon-file"></i> Register Now</a></p>
+							<h1>Contact Us</h1>
+							<h2>Any Problem , we are just a pm away .<a href="signup.php" target="_blank"> Take a course</a></h2>
 						</div>
 					</div>
 				</div>
@@ -122,27 +118,66 @@ if (!isset($_SESSION['email'])) {
 	<div id="fh5co-contact">
 		<div class="container">
 			<div class="row">
-					<div class="img img-about align-self-stretch" style="background-image: url('https://scontent.fbom17-1.fna.fbcdn.net/v/t1.0-9/48981231_2224887860897467_4250997293429293056_n.jpg?_nc_cat=108&_nc_oc=AQmpi6TaFgiBuIuF8geVVmsqh4_Sfu_XsEGJCGoN57Dmfmzl9UlpBLWLt8weyLHy5k8&_nc_ht=scontent.fbom17-1.fna&oh=724779d40b5531cd32982e02bddfc33a&oe=5E62D379'); width: 100%;">
-						
-					</div>
-				<div class="img">
-					<img src="https://scontent.fbom17-1.fna.fbcdn.net/v/t1.0-9/48981231_2224887860897467_4250997293429293056_n.jpg?_nc_cat=108&_nc_oc=AQmpi6TaFgiBuIuF8geVVmsqh4_Sfu_XsEGJCGoN57Dmfmzl9UlpBLWLt8weyLHy5k8&_nc_ht=scontent.fbom17-1.fna&oh=724779d40b5531cd32982e02bddfc33a&oe=5E62D379">
-				</div>
+				<div class="col-md-5 col-md-push-1 animate-box">
+					
 					<div class="fh5co-contact-info">
-						<h2>Welcome to Renu Animation Expert Since 1998 </h2>
-						<p>
-						Renu Animation Expert is a non-government organization (NGO) where we are providing computer knowledge to the students from any background at a minimal cost.
-						</p>
-						<div class="align">
-						<q>Any fool can write code that a computer can understand. Good programmers write code that humans can understand.</q><br><i> –Martin Fowler</i><br>
-						<q> Code is like humor. When you have to explain it, it’s bad.</q><br><i> –Cory House</i>
-
-						</div>
+						<h3>Contact Information</h3>
+						<ul>
+							<li class="address">Armapur Estate, Kanpur, <br> Uttar Pradesh,208009 India</li>
+							<li class="phone"><a href="tel://6393947770">+91 6393947770</a></li>
+							<li class="email"><a href="mailto:renu.raeces@gmail.com">renu.raeces@gmail.com</a></li>
+							<li class="url"><a href="#">www.raeces.org</a></li>
+						</ul>
 					</div>
+
+				</div>
+				<div class="col-md-6 animate-box">
+					<h3>Get In Touch</h3>
+					<form action="#">
+						<div class="row form-group">
+							<div class="col-md-6">
+								<!-- <label for="fname">First Name</label> -->
+								<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+							</div>
+							<div class="col-md-6">
+								<!-- <label for="lname">Last Name</label> -->
+								<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="email">Email</label> -->
+								<input type="text" id="email" class="form-control" placeholder="Your email address">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="subject">Subject</label> -->
+								<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="message">Message</label> -->
+								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Send Message" class="btn btn-primary">
+						</div>
+
+					</form>		
+				</div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14285.975980384294!2d80.2646451!3d26.4720349!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x468ff91f55687258!2sRenu%20Animation%20expert%20computer%20educational%20society!5e0!3m2!1sen!2sin!4v1571995890454!5m2!1sen!2sin"></iframe>
+			</div>
 			
 		</div>
 	</div>
-	<footer id="fh5co-footer" role="contentinfo">
+	
+		<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
 			<div class="row row-pb-md">
 				<div class="col-md-3 fh5co-widget">
@@ -198,7 +233,7 @@ if (!isset($_SESSION['email'])) {
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2019 RAECES. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a>
+						<small class="block">Follow Us</a></small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
@@ -215,7 +250,6 @@ if (!isset($_SESSION['email'])) {
 
 		</div>
 	</footer>
-	</div>
 	</div>
 
 	<div class="gototop js-top">

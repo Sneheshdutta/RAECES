@@ -362,7 +362,7 @@ include 'includes/common.php';
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2019 RAECES. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></small>
+						<small class="block">Follow Us</a></small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
